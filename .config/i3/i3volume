@@ -1,0 +1,7 @@
+#!/bin/bash
+
+case $BLOCK_BUTTON in
+	4)amixer set 'Master' 5%+;;
+	5)amixer set 'Master' 5%-;;
+esac
+echo "vol"

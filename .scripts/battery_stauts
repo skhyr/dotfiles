@@ -1,0 +1,9 @@
+#! bin/bash
+
+STATE=sudo cat /sys/class/power_supply/BAT0/status | cut -b 1-2
+
+echo "$STATE"
+
+if [[ $STATE == "Di" ]]; then
+  echo "---"
+fi
