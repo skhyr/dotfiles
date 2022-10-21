@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+sudo yabai --load-sa
+
 # global settings
 
 # focus window that your mouse hovers on (disabled due to right click bugs)
